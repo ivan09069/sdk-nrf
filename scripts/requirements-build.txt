@@ -14,3 +14,4 @@ nrf-regtool==9.0.1
 windows-curses; sys_platform == 'win32'
 unidiff
 pycryptodome==3.21.0
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
